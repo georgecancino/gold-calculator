@@ -1,7 +1,7 @@
 function calculatePrice() {
     var weight = parseFloat(document.getElementById("weight").value);
     var purity = parseFloat(document.getElementById("purity").value);
-    var goldPricePerGram = 2253 / 31.1034768; // Sample gold price per troy ounce
+    var goldPricePerGram = 3549 / 31.1034768; // Sample gold price per troy ounce
   
     // Calculate purity factor as a decimal value
     var purityFactor = purity / 24;
